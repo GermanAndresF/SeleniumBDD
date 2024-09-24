@@ -1,0 +1,19 @@
+{
+  "credentials": {
+    "valid": {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "message": ""
+    },
+    "locked": {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "message": "Epic sadface: Sorry, this user has been locked out."
+    },
+    "unexistent": {
+      "username": "hello_world",
+      "password": "secret_passsword",
+      "message": "Epic sadface: Username and password do not match any user in this service"
+    }
+  }
+}
