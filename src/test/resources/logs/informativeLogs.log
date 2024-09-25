@@ -1,11 +1,14 @@
-10:12:00.292 INFO  AUTOMATION - beforeAll
-10:12:00.432 INFO  AUTOMATION - before: Credenciales invalidas
-10:12:13.745 INFO  AUTOMATION - Navegando a la url
-10:12:15.459 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-10:12:15.846 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-10:12:15.861 INFO  AUTOMATION - Escribiendo el username
-10:12:16.301 INFO  AUTOMATION - Escribiendo el password
-10:12:16.351 INFO  AUTOMATION - Haciendo click en el boton de login
-10:12:16.484 INFO  AUTOMATION - Verificando el mensaje de error y su texto
-10:12:16.706 INFO  AUTOMATION - after: Credenciales invalidas, status: PASSED
-10:12:17.784 INFO  AUTOMATION - afterAll
+10:41:16.765 INFO  AUTOMATION - beforeAll
+10:41:16.845 INFO  AUTOMATION - before: Logout
+10:41:27.611 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+10:41:28.458 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+10:41:28.494 INFO  AUTOMATION - Abriendo el menu burger
+10:41:28.683 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+10:41:29.235 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+10:41:29.235 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
+10:41:29.294 INFO  AUTOMATION - Haciendo click en logout
+10:41:29.405 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+10:41:29.421 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+10:41:29.421 INFO  AUTOMATION - Verificando la pagina de login
+10:41:29.685 INFO  AUTOMATION - after: Logout, status: PASSED
+10:41:30.187 INFO  AUTOMATION - afterAll
