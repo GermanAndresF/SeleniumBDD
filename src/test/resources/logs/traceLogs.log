@@ -1,0 +1,19 @@
+10:12:00.292 INFO  AUTOMATION - beforeAll
+10:12:00.302 DEBUG AUTOMATION - Borrando la carpeta de evidencias
+10:12:00.432 INFO  AUTOMATION - before: Credenciales invalidas
+10:12:00.432 DEBUG AUTOMATION - Asignando default driver a CHROME
+10:12:00.448 DEBUG AUTOMATION - Inicializando driver: CHROME
+10:12:00.448 DEBUG AUTOMATION - Headless mode? false
+10:12:13.150 DEBUG AUTOMATION - Maximizando pantalla
+10:12:13.258 DEBUG AUTOMATION - Borrando cookies
+10:12:13.513 DEBUG AUTOMATION - Asignando driver al webdriver provider
+10:12:13.745 INFO  AUTOMATION - Navegando a la url
+10:12:15.459 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+10:12:15.846 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+10:12:15.861 INFO  AUTOMATION - Escribiendo el username
+10:12:16.301 INFO  AUTOMATION - Escribiendo el password
+10:12:16.351 INFO  AUTOMATION - Haciendo click en el boton de login
+10:12:16.484 INFO  AUTOMATION - Verificando el mensaje de error y su texto
+10:12:16.706 INFO  AUTOMATION - after: Credenciales invalidas, status: PASSED
+10:12:16.706 DEBUG AUTOMATION - Finalizando el driver
+10:12:17.784 INFO  AUTOMATION - afterAll

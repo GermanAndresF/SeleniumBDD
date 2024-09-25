@@ -1,5 +1,6 @@
 package utilities;
 
+import io.cucumber.java.Scenario;
 import org.apache.commons.io.FileUtils;
 import org.jsoup.Jsoup;
 import org.openqa.selenium.OutputType;
@@ -57,5 +58,27 @@ public class FileManager {
             Logs.error("Error al borrar la evidencia antrior: %s",
                     ioException.getLocalizedMessage());
         }
+    }
+
+    public static void attachScreenshot(Scenario scenario) {
+        final var screenshotFile = ((TakesScreenshot) new WebDriverProvider().get())
+                .getScreenshotAs(OutputType.BYTES);
+
+        scenario.attach(
+                screenshotFile,
+                "image/png",
+                scenario.getName()
+        );
+    }
+
+    public static void attachPageSource(Scenario scenario) {
+        final var pageSource = new WebDriverProvider().get().getPageSource();
+        final var parsedPageSource = Jsoup.parse(pageSource).toString();
+
+        scenario.attach(
+                parsedPageSource,
+                "text/plain",
+                scenario.getName()
+        );
     }
 }
