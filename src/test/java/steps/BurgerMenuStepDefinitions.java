@@ -27,4 +27,9 @@ public class BurgerMenuStepDefinitions {
         loginPage.waitPageToLoad();
         loginPage.verifyPage();
     }
+
+    @Then("El usuario verifica que la opcion de About tenga el link {string}")
+    public void verifyAboutLink(String url) {
+        menuBurger.verifyAboutLink(url);
+    }
 }

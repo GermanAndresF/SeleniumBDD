@@ -1,23 +1,22 @@
-10:41:16.765 INFO  AUTOMATION - beforeAll
-10:41:16.770 DEBUG AUTOMATION - Borrando la carpeta de evidencias
-10:41:16.845 INFO  AUTOMATION - before: Logout
-10:41:16.845 DEBUG AUTOMATION - Asignando default driver a CHROME
-10:41:16.846 DEBUG AUTOMATION - Inicializando driver: CHROME
-10:41:16.846 DEBUG AUTOMATION - Headless mode? false
-10:41:24.514 DEBUG AUTOMATION - Maximizando pantalla
-10:41:24.702 DEBUG AUTOMATION - Borrando cookies
-10:41:25.097 DEBUG AUTOMATION - Asignando driver al webdriver provider
-10:41:25.144 DEBUG AUTOMATION - Asignando la cookie de login
-10:41:27.611 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-10:41:28.458 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
-10:41:28.494 INFO  AUTOMATION - Abriendo el menu burger
-10:41:28.683 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
-10:41:29.235 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
-10:41:29.235 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
-10:41:29.294 INFO  AUTOMATION - Haciendo click en logout
-10:41:29.405 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-10:41:29.421 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-10:41:29.421 INFO  AUTOMATION - Verificando la pagina de login
-10:41:29.685 INFO  AUTOMATION - after: Logout, status: PASSED
-10:41:29.685 DEBUG AUTOMATION - Finalizando el driver
-10:41:30.187 INFO  AUTOMATION - afterAll
+11:02:12.657 INFO  AUTOMATION - beforeAll
+11:02:12.661 DEBUG AUTOMATION - Borrando la carpeta de evidencias
+11:02:12.740 INFO  AUTOMATION - before: Regresar pagina shopping
+11:02:12.740 DEBUG AUTOMATION - Asignando default driver a CHROME
+11:02:12.741 DEBUG AUTOMATION - Inicializando driver: CHROME
+11:02:12.741 DEBUG AUTOMATION - Headless mode? false
+11:02:16.597 DEBUG AUTOMATION - Maximizando pantalla
+11:02:16.633 DEBUG AUTOMATION - Borrando cookies
+11:02:18.692 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:02:18.702 DEBUG AUTOMATION - Asignando la cookie de login
+11:02:21.242 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:02:21.262 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:02:21.262 INFO  AUTOMATION - Navegando al detalle del item: Sauce Labs Fleece Jacket
+11:02:21.312 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+11:02:21.332 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+11:02:21.332 INFO  AUTOMATION - Haciendo click en back to products
+11:02:21.372 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:02:21.392 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:02:21.392 INFO  AUTOMATION - Verificando la pagina de shopping
+11:02:21.442 INFO  AUTOMATION - after: Regresar pagina shopping, status: PASSED
+11:02:21.442 DEBUG AUTOMATION - Finalizando el driver
+11:02:21.674 INFO  AUTOMATION - afterAll

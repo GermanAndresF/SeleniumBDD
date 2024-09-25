@@ -7,3 +7,7 @@ Feature: Burger Menu
   Scenario: Logout
     When El usuario hace click en la opcion de logout
     Then La aplicacion redirige a la pagina de login
+
+  @regression
+  Scenario: About
+    Then El usuario verifica que la opcion de About tenga el link "https://saucelabs.com/"
