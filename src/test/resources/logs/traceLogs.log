@@ -1,22 +1,249 @@
-11:02:12.657 INFO  AUTOMATION - beforeAll
-11:02:12.661 DEBUG AUTOMATION - Borrando la carpeta de evidencias
-11:02:12.740 INFO  AUTOMATION - before: Regresar pagina shopping
-11:02:12.740 DEBUG AUTOMATION - Asignando default driver a CHROME
-11:02:12.741 DEBUG AUTOMATION - Inicializando driver: CHROME
-11:02:12.741 DEBUG AUTOMATION - Headless mode? false
-11:02:16.597 DEBUG AUTOMATION - Maximizando pantalla
-11:02:16.633 DEBUG AUTOMATION - Borrando cookies
-11:02:18.692 DEBUG AUTOMATION - Asignando driver al webdriver provider
-11:02:18.702 DEBUG AUTOMATION - Asignando la cookie de login
-11:02:21.242 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-11:02:21.262 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
-11:02:21.262 INFO  AUTOMATION - Navegando al detalle del item: Sauce Labs Fleece Jacket
-11:02:21.312 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
-11:02:21.332 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
-11:02:21.332 INFO  AUTOMATION - Haciendo click en back to products
-11:02:21.372 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-11:02:21.392 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
-11:02:21.392 INFO  AUTOMATION - Verificando la pagina de shopping
-11:02:21.442 INFO  AUTOMATION - after: Regresar pagina shopping, status: PASSED
-11:02:21.442 DEBUG AUTOMATION - Finalizando el driver
-11:02:21.674 INFO  AUTOMATION - afterAll
+11:35:38.599 INFO  AUTOMATION - beforeAll
+11:35:38.599 DEBUG AUTOMATION - Borrando la carpeta de evidencias
+11:35:38.667 INFO  AUTOMATION - before: Logout
+11:35:38.667 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:35:38.667 DEBUG AUTOMATION - Headless mode? false
+11:35:59.076 DEBUG AUTOMATION - Maximizando pantalla
+11:35:59.133 DEBUG AUTOMATION - Borrando cookies
+11:35:59.387 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:35:59.387 DEBUG AUTOMATION - Asignando la cookie de login
+11:36:01.221 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:36:02.232 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:36:02.247 INFO  AUTOMATION - Abriendo el menu burger
+11:36:02.325 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+11:36:03.387 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+11:36:03.387 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
+11:36:03.545 INFO  AUTOMATION - Haciendo click en logout
+11:36:03.653 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+11:36:03.672 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+11:36:03.672 INFO  AUTOMATION - Verificando la pagina de login
+11:36:03.760 INFO  AUTOMATION - after: Logout, status: PASSED
+11:36:03.760 DEBUG AUTOMATION - Finalizando el driver
+11:36:05.597 INFO  AUTOMATION - before: About
+11:36:05.597 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:36:05.597 DEBUG AUTOMATION - Headless mode? false
+11:36:10.841 DEBUG AUTOMATION - Maximizando pantalla
+11:36:10.877 DEBUG AUTOMATION - Borrando cookies
+11:36:15.493 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:36:15.493 DEBUG AUTOMATION - Asignando la cookie de login
+11:36:18.760 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:36:19.325 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:36:19.325 INFO  AUTOMATION - Abriendo el menu burger
+11:36:19.395 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+11:36:22.563 INFO  AUTOMATION - MenuBurger ha cargado satisfactoriamente
+11:36:22.563 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
+11:36:22.579 INFO  AUTOMATION - Verificando la opcion de about
+11:36:22.662 INFO  AUTOMATION - after: About, status: PASSED
+11:36:22.662 DEBUG AUTOMATION - Finalizando el driver
+11:36:24.004 INFO  AUTOMATION - before: Verificar las redes sociales del footer
+11:36:24.004 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:36:24.004 DEBUG AUTOMATION - Headless mode? false
+11:36:25.696 DEBUG AUTOMATION - Maximizando pantalla
+11:36:25.727 DEBUG AUTOMATION - Borrando cookies
+11:36:29.024 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:36:29.024 DEBUG AUTOMATION - Asignando la cookie de login
+11:36:30.736 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:36:31.241 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:36:31.316 INFO  AUTOMATION - Verificando los links de las redes sociales
+11:36:31.371 INFO  AUTOMATION - after: Verificar las redes sociales del footer, status: PASSED
+11:36:31.371 DEBUG AUTOMATION - Finalizando el driver
+11:36:32.774 INFO  AUTOMATION - before: Verificar la UI del detalle
+11:36:32.774 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:36:32.774 DEBUG AUTOMATION - Headless mode? false
+11:36:34.154 DEBUG AUTOMATION - Maximizando pantalla
+11:36:34.195 DEBUG AUTOMATION - Borrando cookies
+11:36:37.215 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:36:37.246 DEBUG AUTOMATION - Asignando la cookie de login
+11:36:38.884 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:36:39.213 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:36:39.213 INFO  AUTOMATION - Navegando al detalle del item: Sauce Labs Fleece Jacket
+11:36:39.275 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+11:36:39.282 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+11:36:39.282 INFO  AUTOMATION - Verificando el detalle del item
+11:36:39.374 INFO  AUTOMATION - after: Verificar la UI del detalle, status: PASSED
+11:36:39.389 DEBUG AUTOMATION - Finalizando el driver
+11:36:40.821 INFO  AUTOMATION - before: Regresar pagina shopping
+11:36:40.821 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:36:40.821 DEBUG AUTOMATION - Headless mode? false
+11:36:43.072 DEBUG AUTOMATION - Maximizando pantalla
+11:36:43.138 DEBUG AUTOMATION - Borrando cookies
+11:36:47.527 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:36:47.527 DEBUG AUTOMATION - Asignando la cookie de login
+11:36:49.089 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:36:49.250 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:36:49.250 INFO  AUTOMATION - Navegando al detalle del item: Sauce Labs Fleece Jacket
+11:36:49.315 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+11:36:49.333 INFO  AUTOMATION - ItemDetailPage ha cargado satisfactoriamente
+11:36:49.333 INFO  AUTOMATION - Haciendo click en back to products
+11:36:49.364 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:36:49.380 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:36:49.380 INFO  AUTOMATION - Verificando la pagina de shopping
+11:36:49.429 INFO  AUTOMATION - after: Regresar pagina shopping, status: PASSED
+11:36:49.429 DEBUG AUTOMATION - Finalizando el driver
+11:36:50.983 INFO  AUTOMATION - before: Credenciales erroneas
+11:36:50.983 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:36:50.983 DEBUG AUTOMATION - Headless mode? false
+11:36:52.506 DEBUG AUTOMATION - Maximizando pantalla
+11:36:52.768 DEBUG AUTOMATION - Borrando cookies
+11:36:55.537 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:36:55.537 INFO  AUTOMATION - Navegando a la url
+11:36:57.022 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+11:36:57.053 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+11:36:57.053 INFO  AUTOMATION - Escribiendo el username
+11:36:57.559 INFO  AUTOMATION - Escribiendo el password
+11:36:57.622 INFO  AUTOMATION - Haciendo click en el boton de login
+11:36:57.747 INFO  AUTOMATION - Verificando el mensaje de error y su texto
+11:36:57.841 INFO  AUTOMATION - after: Credenciales erroneas, status: PASSED
+11:36:57.841 DEBUG AUTOMATION - Finalizando el driver
+11:36:59.387 INFO  AUTOMATION - before: Credenciales erroneas
+11:36:59.387 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:36:59.387 DEBUG AUTOMATION - Headless mode? false
+11:37:01.208 DEBUG AUTOMATION - Maximizando pantalla
+11:37:01.243 DEBUG AUTOMATION - Borrando cookies
+11:37:04.096 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:37:04.096 INFO  AUTOMATION - Navegando a la url
+11:37:05.069 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+11:37:05.085 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+11:37:05.085 INFO  AUTOMATION - Escribiendo el username
+11:37:05.157 INFO  AUTOMATION - Escribiendo el password
+11:37:05.205 INFO  AUTOMATION - Haciendo click en el boton de login
+11:37:05.268 INFO  AUTOMATION - Verificando el mensaje de error y su texto
+11:37:05.299 INFO  AUTOMATION - after: Credenciales erroneas, status: PASSED
+11:37:05.299 DEBUG AUTOMATION - Finalizando el driver
+11:37:06.655 INFO  AUTOMATION - before: Verificar la UI de la pagina login
+11:37:06.655 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:37:06.655 DEBUG AUTOMATION - Headless mode? false
+11:37:07.837 DEBUG AUTOMATION - Maximizando pantalla
+11:37:08.044 DEBUG AUTOMATION - Borrando cookies
+11:37:11.360 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:37:11.360 INFO  AUTOMATION - Navegando a la url
+11:37:12.022 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+11:37:12.040 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+11:37:12.040 INFO  AUTOMATION - Verificando la pagina de login
+11:37:12.077 INFO  AUTOMATION - after: Verificar la UI de la pagina login, status: PASSED
+11:37:12.077 DEBUG AUTOMATION - Finalizando el driver
+11:37:13.386 INFO  AUTOMATION - before: Verificar la UI de Shopping
+11:37:13.386 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:37:13.386 DEBUG AUTOMATION - Headless mode? false
+11:37:14.754 DEBUG AUTOMATION - Maximizando pantalla
+11:37:14.786 DEBUG AUTOMATION - Borrando cookies
+11:37:17.630 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:37:17.630 DEBUG AUTOMATION - Asignando la cookie de login
+11:37:18.724 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:37:19.257 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:37:19.257 INFO  AUTOMATION - Verificando la pagina de shopping
+11:37:19.302 INFO  AUTOMATION - after: Verificar la UI de Shopping, status: PASSED
+11:37:19.302 DEBUG AUTOMATION - Finalizando el driver
+11:37:20.669 INFO  AUTOMATION - before: Verificar precios
+11:37:20.669 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:37:20.669 DEBUG AUTOMATION - Headless mode? false
+11:37:22.435 DEBUG AUTOMATION - Maximizando pantalla
+11:37:22.470 DEBUG AUTOMATION - Borrando cookies
+11:37:24.547 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:37:24.547 DEBUG AUTOMATION - Asignando la cookie de login
+11:37:26.302 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:37:26.318 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:37:27.099 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:37:27.099 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:37:27.365 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:37:27.490 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:37:27.505 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:37:27.505 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:37:27.505 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:37:27.505 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:37:27.505 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:37:27.505 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:37:27.505 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:37:27.521 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:37:27.521 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:37:27.521 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:37:27.521 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:37:27.521 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:37:27.521 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+11:37:27.661 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:37:27.693 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+11:37:27.755 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+11:37:27.802 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+11:37:27.802 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+11:37:27.802 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+11:37:27.802 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+11:37:27.818 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+11:37:27.849 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+11:37:27.849 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+11:37:27.849 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+11:37:27.865 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+11:37:28.032 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+11:37:28.047 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+11:37:28.063 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+11:37:28.141 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+11:37:28.141 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+11:37:28.188 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+11:37:28.204 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+11:37:28.266 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+11:37:28.266 INFO  AUTOMATION - Verificando el precio de los productos
+11:37:28.485 INFO  AUTOMATION - after: Verificar precios, status: PASSED
+11:37:28.485 DEBUG AUTOMATION - Finalizando el driver
+11:37:29.784 INFO  AUTOMATION - before: Mensajes de error
+11:37:29.784 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:37:29.784 DEBUG AUTOMATION - Headless mode? false
+11:37:31.538 DEBUG AUTOMATION - Maximizando pantalla
+11:37:31.579 DEBUG AUTOMATION - Borrando cookies
+11:37:34.577 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:37:34.702 DEBUG AUTOMATION - Asignando la cookie de login
+11:37:36.016 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:37:36.732 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:37:36.732 INFO  AUTOMATION - Haciendo click en el boton de shoppingcart
+11:37:36.811 INFO  AUTOMATION - Esperando que la pagina YourCartPage cargue
+11:37:36.843 INFO  AUTOMATION - YourCartPage ha cargado satisfactoriamente
+11:37:36.843 INFO  AUTOMATION - Haciendo click en checkout
+11:37:36.862 INFO  AUTOMATION - Esperando que la pagina YourInformationPage cargue
+11:37:36.878 INFO  AUTOMATION - YourInformationPage ha cargado satisfactoriamente
+11:37:36.878 INFO  AUTOMATION - Haciendo click en continue
+11:37:37.029 INFO  AUTOMATION - Verificando el mensaje de error
+11:37:37.056 INFO  AUTOMATION - after: Mensajes de error, status: PASSED
+11:37:37.056 DEBUG AUTOMATION - Finalizando el driver
+11:37:39.251 INFO  AUTOMATION - before: Mensajes de error
+11:37:39.251 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:37:39.251 DEBUG AUTOMATION - Headless mode? false
+11:37:41.216 DEBUG AUTOMATION - Maximizando pantalla
+11:37:41.279 DEBUG AUTOMATION - Borrando cookies
+11:37:43.462 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:37:43.462 DEBUG AUTOMATION - Asignando la cookie de login
+11:37:44.838 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:37:45.179 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:37:45.179 INFO  AUTOMATION - Haciendo click en el boton de shoppingcart
+11:37:45.222 INFO  AUTOMATION - Esperando que la pagina YourCartPage cargue
+11:37:45.238 INFO  AUTOMATION - YourCartPage ha cargado satisfactoriamente
+11:37:45.238 INFO  AUTOMATION - Haciendo click en checkout
+11:37:45.284 INFO  AUTOMATION - Esperando que la pagina YourInformationPage cargue
+11:37:45.300 INFO  AUTOMATION - YourInformationPage ha cargado satisfactoriamente
+11:37:45.300 INFO  AUTOMATION - Escribiendo el firstname
+11:37:45.378 INFO  AUTOMATION - Escribiendo el lastname
+11:37:45.422 INFO  AUTOMATION - Escribiendo el zipcode
+11:37:45.484 INFO  AUTOMATION - Haciendo click en continue
+11:37:45.515 INFO  AUTOMATION - Verificando el mensaje de error
+11:37:45.547 INFO  AUTOMATION - after: Mensajes de error, status: PASSED
+11:37:45.547 DEBUG AUTOMATION - Finalizando el driver
+11:37:47.148 INFO  AUTOMATION - before: Mensajes de error
+11:37:47.148 DEBUG AUTOMATION - Inicializando driver: EDGE
+11:37:47.148 DEBUG AUTOMATION - Headless mode? false
+11:37:48.813 DEBUG AUTOMATION - Maximizando pantalla
+11:37:48.846 DEBUG AUTOMATION - Borrando cookies
+11:37:51.457 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:37:51.457 DEBUG AUTOMATION - Asignando la cookie de login
+11:37:53.651 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+11:37:54.352 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:37:54.352 INFO  AUTOMATION - Haciendo click en el boton de shoppingcart
+11:37:54.384 INFO  AUTOMATION - Esperando que la pagina YourCartPage cargue
+11:37:54.399 INFO  AUTOMATION - YourCartPage ha cargado satisfactoriamente
+11:37:54.399 INFO  AUTOMATION - Haciendo click en checkout
+11:37:54.430 INFO  AUTOMATION - Esperando que la pagina YourInformationPage cargue
+11:37:54.446 INFO  AUTOMATION - YourInformationPage ha cargado satisfactoriamente
+11:37:54.446 INFO  AUTOMATION - Escribiendo el firstname
+11:37:54.509 INFO  AUTOMATION - Escribiendo el lastname
+11:37:54.571 INFO  AUTOMATION - Escribiendo el zipcode
+11:37:54.602 INFO  AUTOMATION - Haciendo click en continue
+11:37:54.649 INFO  AUTOMATION - Verificando el mensaje de error
+11:37:54.665 INFO  AUTOMATION - after: Mensajes de error, status: PASSED
+11:37:54.665 DEBUG AUTOMATION - Finalizando el driver
+11:37:56.087 INFO  AUTOMATION - afterAll
